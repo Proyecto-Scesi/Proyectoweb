@@ -1,18 +1,18 @@
-### Diseño del proyecto y Documentacion de la pagina web
+# DISEÑO DE UNA PAGINA WEB
 
-El proyecto que realizamos como un grupo de postulantes a la SCESI es 
+## GRUPO DEEP WEB
 
-el diseño de una pagina web sencilla buscando aplicar un flujo de 
+**El grupo usamos como flujo de trabajo el gitFlow ya que resulta mas facil de desarrollar como grupo basandonos en el uso de muchas ramas**
 
-trabajo gitflow workflow, la pagina esta diseñada para mostrar 
+## Bitacora del proyecto
+ **Dia 1 recien se armo por falta de tiempo la base del proyecto por el momento solo se añadio las ramas necesarias para usar el gitflow y se avanzo el proyectoweb**
 
-un poco de informacion de html y css para la informacion para los 
+ ## Analisis del equipo
 
-visitantes.
+ * Marcelo
+ * Pablo
+ * Saul
 
-**Gitflow**
+## Herramientas utilizadas en el proyecto
 
-git flow es un flujo de trabajo para proyectos grupales basada 
-
-principalmente en el diseño de 4 ramas que se dedicaran a cosas distintas
-
+Por el momento ninguna 
