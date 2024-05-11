@@ -1,0 +1,153 @@
+/*=============Variables CSS=================*/
+:root{
+    --titulo-primario: 'Roboto', sans-serif;
+    --color-primario:rgb(6, 6, 85);
+    --color-secundarios:rgb(7, 7, 121);
+}
+
+/*==============Reglas Generales============*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--titulo-primario);
+}
+
+h1, a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-primario);
+    margin: 30px;
+}
+
+/*============Header===========*/
+.encabezado{
+    background-color: var(--color-primario);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-titulo {
+    display: flex;
+    padding: 30px;
+}
+.logo-titulo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+}
+.logo-titulo a h1{
+    font-size: 40px;
+}
+.logo-titulo a:hover{
+    background-color: lightslategray;
+}
+.menu{
+    align-self: center;
+}
+.menu a{
+    padding: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight:700;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: lightslategray;
+}
+
+/*=============Section============*/
+.contenido-de-seccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.seccion-imagen{
+    flex: 20%;
+    padding-left: 50px;
+    
+}
+.seccion-imagen img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 5px dashed var(--color-secundarios);
+    border-radius: 50%;
+}
+.seccion-texto{
+    flex:60%;
+    padding-left: 50px;
+}
+.seccion-texto h3{
+    padding-top: 30px;
+}
+.seccion-texto a{
+    color: blue;
+}
+
+/*================Footer===============*/
+.pie-pagina{
+    width:100%;
+    background-color: var(--color-primario);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    /* === PARA CONTENIDOS QUE NO ABARCAN TODA LA PANTALLA (footer siempre abajo) === 
+    position: absolute;
+    bottom: 0;
+    left: 0;*/   
+}
+.pie-pagina .redes-sociales{
+    font-size: 28px;
+}
+.pie-pagina .redes-sociales a{
+    margin-right: 30px;
+    padding: 0px 10px;
+    font-size: 28px;
+    text-decoration: none;
+}
+.pie-pagina .redes-sociales a:hover{
+    color: lightslategray;
+}
+.pie-pagina .derechos-reservados{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    align-self: center;
+}
+
+/*=============Medias queries========*/
+@media screen and (max-width:950px) {
+    .contenido-de-seccion{
+        flex-direction: column;
+    } 
+}
+
+@media screen and (max-width:720px) {
+    .encabezado{
+        flex-direction: column;
+    } 
+    .pie-pagina{
+        align-items: center;  
+    }
+}
