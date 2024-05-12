@@ -23,8 +23,14 @@
 
     -Hizo correctamente el procedimiento de la rama features/TrabajoHTML, pero sucedio el problema explicada en la bitacora.
  * Pablo
+   Buen manejo del workflow gitflow logro corregir problemas que existian en el gitflow con los comandos, solo le faltaria mejorar los commits y su forma de redactar
  * Saul
 
 ## Herramientas utilizadas en el proyecto
 
-Por el momento ninguna 
+El grupo no opto por el uso de hooks ya que no logramos comprender el uso en completo solo usamos los hooks que vienen por defecto con el git.
+camino - Equivalente a git status. "Camino" en español significa "status" en inglés.
+ramificar - Equivalente a git branch. "Ramificar" en español se refiere a "branch" en inglés.
+traer - Equivalente a git pull. "Traer" en español implica "pull" en inglés, que es para traer cambios remotos.
+empujar - Equivalente a git push. "Empujar" en español es lo mismo que "push" en inglés, para enviar cambios locales a un repositorio remoto.
+fijar - Equivalente a git commit. "Fijar" en español se refiere a "commit" en inglés, que es para guardar los cambios en el repositorio.
