@@ -26,6 +26,8 @@
    Buen manejo del workflow gitflow logro corregir problemas que existian en el gitflow con los comandos, solo le faltaria mejorar los commits y su forma de redactar
  * Saul
 
+   ♦ Desenvolvimiento al memorizar los comandos git y dar soluciones intuitivas para el desalloro, estructurando de mejor manera las ramas con las diferentes herramientas y con aopyo de la docummentacion, impulsando con ideas para mejorar el proyecto.   
+
 ## Herramientas utilizadas en el proyecto
 
 El grupo no opto por el uso de hooks ya que no logramos comprender el uso en completo solo usamos los hooks que vienen por defecto con el git.
